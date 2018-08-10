@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sliding MenuBar</title>
+    
+    
+    <style>
+        span{
+            font-size: 25px;
+            cursor: pointer;
+        }
+         button{
+            background-color: black;
+            border:1px solid black;
+            font-size: 55px;
+            color:white;
+            float: right;
+         }
+         button:focus{
+            outline: none;
+         }
+
+        
+    
+    </style>
+    
+    
+    
+    <script>
+        
+        function openMenu(){
+         document.getElementById("menubar").style.width="300px";
+            
+        }
+
+    function closeMenu(){
+        document.getElementById("menubar").style.width="0";
+    }
+        
+    </script>
+    
+    
+    </head>
+       
+    <body >
+        <span onclick="openMenu()">&#9776;</span>
+        
+        <div id="menubar">
+           <button onclick="closeMenu()">
+            &times
+           </button>
+            <a href="" style="padding-top: 70px;">Home</a>
+            <a href="">Blog</a>
+            <a href="">Contents</a>
+            <a href="">About</a>
+            <a href="">Contact Us</a>
+        </div>
+    </body>
+
+</html>
