@@ -1,23 +1,23 @@
 
-#menu{
-    
-    position: fixed;
-    top: 0;
-    left: 0;
-    width:0;
-    height: 100%;
-    overflow-x: hidden;
-    z-index: 1;
-    transition: 1s;
-    background-color: black;
-}
-
-
-#menu a{
-    display: block;
-    text-decoration: none;
-    color:white;
-    padding:10px;
-    font-size: 25px;
-    transition: 1s;
-}
+        #menubar{
+            position: fixed;
+            width:0;
+            height: 100%;
+            top: 0;
+            left: 0;
+            overflow-x: hidden;
+            z-index: 1;
+            transition: 1s;
+            background-color: black;
+          
+        }
+        
+        #menubar a{
+            display: block;
+            text-decoration: none;
+            font-size: 25px;
+            padding:10px;
+            transition: 1s;
+             color:white;
+        }
+        
